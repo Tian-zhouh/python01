@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd85f163-6dea-4fc1-acdc-aa32e8d2d2fe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python001/day02/day01作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python001/day02/del.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python001/day02/数据类型.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python001/day02/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/python001/day02/review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python001/day02/del.py" beforeDir="false" afterPath="$PROJECT_DIR$/python001/day02/del.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python001/linux常用命令" beforeDir="false" afterPath="$PROJECT_DIR$/python001/linux常用命令" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +20,8 @@
     <SUITE FILE_PATH="coverage/python01$del.coverage" NAME="del Coverage Results" MODIFIED="1660370198745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day02" />
     <SUITE FILE_PATH="coverage/python01$code01.coverage" NAME="code01 Coverage Results" MODIFIED="1660050313001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day01" />
     <SUITE FILE_PATH="coverage/python01$hello.coverage" NAME="hello Coverage Results" MODIFIED="1659623207999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day01" />
-    <SUITE FILE_PATH="coverage/python01$.coverage" NAME="变量 Coverage Results" MODIFIED="1660054263334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day01" />
     <SUITE FILE_PATH="coverage/python01$day01.coverage" NAME="day01作业 Coverage Results" MODIFIED="1660227511778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day02" />
+    <SUITE FILE_PATH="coverage/python01$.coverage" NAME="数据类型 Coverage Results" MODIFIED="1660373159439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day02" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -88,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="del.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="del.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python001/day02/del.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="374">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数据类型.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python001/day02/数据类型.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -100,8 +109,8 @@
       <file leaf-file-name="linux常用命令" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python001/linux常用命令">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -114,6 +123,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>c</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -131,7 +145,6 @@
       <list>
         <option value="$PROJECT_DIR$/python001/hello.py" />
         <option value="$PROJECT_DIR$/python001/day01/hello.py" />
-        <option value="$PROJECT_DIR$/python001/linux常用命令" />
         <option value="$PROJECT_DIR$/python001/day01/code01.py" />
         <option value="$PROJECT_DIR$/python001/day01/函数.py" />
         <option value="$PROJECT_DIR$/python001/day01/变量.py" />
@@ -139,6 +152,8 @@
         <option value="$PROJECT_DIR$/python001/day02/review.py" />
         <option value="$PROJECT_DIR$/python001/day02/day01作业.py" />
         <option value="$PROJECT_DIR$/python001/day02/del.py" />
+        <option value="$PROJECT_DIR$/python001/linux常用命令" />
+        <option value="$PROJECT_DIR$/python001/day02/数据类型.py" />
       </list>
     </option>
   </component>
@@ -178,12 +193,6 @@
               <item name="python01" type="b2602c69:ProjectViewProjectNode" />
               <item name="python01" type="462c0819:PsiDirectoryNode" />
               <item name="python001" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python01" type="462c0819:PsiDirectoryNode" />
-              <item name="python001" type="462c0819:PsiDirectoryNode" />
               <item name="day02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -217,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.del">
+  <component name="RunManager" selected="Python.数据类型">
     <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,6 +246,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="数据类型" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python001/day02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python001/day02/数据类型.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,25 +279,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python001/day01/变量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="code01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python001/day01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python001/day01/code01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,19 +342,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.code01" />
       <item itemvalue="Python.函数" />
       <item itemvalue="Python.review" />
       <item itemvalue="Python.day01作业" />
       <item itemvalue="Python.del" />
+      <item itemvalue="Python.数据类型" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.数据类型" />
         <item itemvalue="Python.del" />
         <item itemvalue="Python.day01作业" />
         <item itemvalue="Python.review" />
         <item itemvalue="Python.函数" />
-        <item itemvalue="Python.code01" />
       </list>
     </recent_temporary>
   </component>
@@ -402,9 +411,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.14069264" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27510917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27510917" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -654,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python001/linux常用命令">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python001/day01/code01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -712,8 +714,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python001/day02/del.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="374">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python001/linux常用命令">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python001/day02/数据类型.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
