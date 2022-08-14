@@ -49,3 +49,10 @@ print(type(c02))
 # 布尔型 bool
 bool01 = True
 bool02 = False
+
+# 数据类型之间的转换
+str_score = input("请输入成绩>>>")
+# input函数的结果就是str，如果需要做数学运算，必须转换成数字
+print(type(str_score))
+str_score = float(str_score)
+print(type(str_score))
