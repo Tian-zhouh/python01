@@ -35,9 +35,27 @@ for i in range(5):
     random_number01 = random.randint(0, 100)
     random_number02 = random.randint(0, 100)
     answer = random_number01 + random_number02
-    result = int(input(f"请输入{x} + {y}= "))
+    result = int(input(f"请输入{random_number01} + {random_number02}= "))
     if result == answer:
         results += 10
     else:
         results -= 5
 print(f"最终得分{results}")
+
+"""
+累计1-100之间能被3整除的整数和
+"""
+result = 0
+for value in range(1, 101):
+    # 如果满足条件则累加
+    if value % 3 == 0:
+        result += value
+print("结果为" + str(result))
+
+# 如果不满足则跳过
+sum = 0
+for item in range(1, 101):
+    if item % 3 != 0:
+        continue
+    sum += item
+print(sum)
