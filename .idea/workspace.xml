@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd85f163-6dea-4fc1-acdc-aa32e8d2d2fe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python001/day04/字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python001/day04/字面值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python001/day04/字面值.py" beforeDir="false" afterPath="$PROJECT_DIR$/python001/day04/字面值.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +22,7 @@
     <SUITE FILE_PATH="coverage/python01$code01.coverage" NAME="code01 Coverage Results" MODIFIED="1660050313001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day01" />
     <SUITE FILE_PATH="coverage/python01$hello.coverage" NAME="hello Coverage Results" MODIFIED="1659623207999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day01" />
     <SUITE FILE_PATH="coverage/python01$day01.coverage" NAME="day01作业 Coverage Results" MODIFIED="1660227511778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day02" />
-    <SUITE FILE_PATH="coverage/python01$.coverage" NAME="字面值 Coverage Results" MODIFIED="1660828135640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day04" />
+    <SUITE FILE_PATH="coverage/python01$.coverage" NAME="字面值 Coverage Results" MODIFIED="1660828892126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day04" />
     <SUITE FILE_PATH="coverage/python01$__1_.coverage" NAME="练习 (1) Coverage Results" MODIFIED="1660465415210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day03" />
   </component>
   <component name="DatabaseView">
@@ -91,8 +89,8 @@
       <file leaf-file-name="字面值.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python001/day04/字面值.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="434">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -1012,8 +1010,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python001/day04/字面值.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="434">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
         </state>
       </provider>
     </entry>
