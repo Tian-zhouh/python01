@@ -12,21 +12,26 @@
 height = 100
 length = 0
 count = 0
-while height >= 0.01:
+# 存放可以弹起的条件
+while height * 0.5 >= 0.01:
+    length += height
     height *= 0.5
     count += 1
     length += height
 
 print("总共弹起" + str(count) + "次")
-print("总共走了" + str(length) + "米")
+print("总共走了" + str(round(length, 2)) + "米")
 
 # 作业4
 import math
 
 num = int(input("请输入一个整数>>>"))
-for i in range(2, int(math.sqrt(num)) + 1):
-    if num % i == 0:
-        print("不是素数")
-        break
+if num < 2:
+    print("不是素数")
 else:
-    print("是素数")
+    for i in range(2, int(math.sqrt(num)) + 1):
+        if num % i == 0:
+            print("不是素数")
+            break
+    else:
+        print("是素数")
