@@ -51,3 +51,33 @@ print(str04[-1])
 str05 = "asdgjkhdklioq"
 print(str05[2:9:3])
 print(str05[::-1])
+
+# 练习:在控制台中获取一个字符串
+# 1.打印第一个字符
+# 2.打印最后一个字符串
+# 3.打印中间的字符串（如果是奇数打印中间的字符串）
+# 4.打印倒数三个字符
+# 5.倒序打印字符串
+
+input_str = input("请输入一个字符串>>>")
+# 1.
+print("*" * 20)
+print(input_str[0])
+# 2.
+print(input_str[-1])
+# 3.
+if len(input_str) % 2 == 1:
+    print(input_str[int(len(input_str) / 2)])
+
+# 4.
+print(input_str[-3:])
+# 5.
+print(input_str[::-1])
+
+# 练习:在控制台中输入一个整数，根据整数打印一个矩形
+input_int = int(input("请输入一个整数>>>"))
+for i in range(input_int):
+    if i == 0 or i == input_int - 1:
+        print("*" * input_int)
+    else:
+        print("*" + " " * (input_int - 2) + "*")
