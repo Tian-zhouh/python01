@@ -59,3 +59,45 @@ for item in range(0, len(list02), 2):
     print(item)
 for item in range(len(list02) - 1, -1, -1):
     print(item)
+
+# 练习:在控制台中录入学生成绩,输出总分，最高分，最低分
+student_num = int(input("请输入学生总数>>>"))
+
+student_record = []
+for item in range(student_num):
+    student_record.append(float(input(f"请输入第{item+1}个学生成绩>>>")))
+
+print(f"总分:{sum(student_record)}")
+print(f"最高分:{max(student_record)}")
+print(f"最低分:{min(student_record)}")
+
+# 练习:在控制台中录入学生姓名。
+# 要求:姓名不能重复
+# 如果录入esc,则停止录入"打印学生姓名"
+student_info = []
+while True:
+    student_name = input("请输入学生姓名>>>")
+    if student_name == "esc":
+        for item in student_info:
+            print(item)
+        break
+    if student_name in student_info:
+        print("该学生信息已存在")
+        continue
+    student_info.append(student_name)
+
+list01 = [34, 5, 6, 78, 9, 0, 5, 8, 88, 4]
+# 假设第一个元素就是最大值
+# 依次与后面元素进行比较
+# 发现更大的，则替换假设的
+# 最后假设的就是真的最大值
+max_enum = list01[0]
+min_enum = list01[0]
+for item in list01:
+    if max_enum < item:
+        max_enum = item
+    if min_enum > item:
+        min_enum = item
+
+print(max_enum)
+print(min_enum)
