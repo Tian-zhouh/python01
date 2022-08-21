@@ -29,8 +29,11 @@ print(dict_people)
 # [101,102,103]
 # (1)根据两个列表形成一个字典：键是姓名，值时房间号
 # (2)将字典的键与值进行翻转.即key变成房间号，值变成姓名
-list_room = [101, 102, 103]
+list_room = [101, 102, 102]
 dict_room = {list_name[item]: list_room[item] for item in range(0, len(list_name))}
 print(dict_room)
-dict_room = {value: key for key, value in dict_room.items()}
-print(dict_room)
+# dict_room = {value: key for key, value in dict_room.items()}
+# print(dict_room)
+
+list03 = [(value, key) for key, value in dict_room.items()]
+print(list03)
