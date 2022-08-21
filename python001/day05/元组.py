@@ -3,6 +3,14 @@
     由一系列变量组成的不可变序列容器
     列表和元组不同，列表由增删改的操作，元组没有增删改的操作
 
+    列表与元组的区别:
+    元组与列表都可以存储一系列变量，由于列表会预留内存空间
+    元组会按需分配内存，所以如果变量数量固定，建议使用元组，因为占用空间更小
+
+    应用:
+    变量交换的本质就是创建元组 x,y=y,x
+    格式化字符串的本质就是创建元组  "姓名:%d,性别:%d",(x,y)
+
     列表的扩容原理：
         1.创建新列表(更大的列表)
         2.拷贝原有元素
@@ -65,3 +73,46 @@ print(list03)  # (a,b,c,d)
 # 如果元组只有一个元素，必须多写一个逗号，否则视为普通对象，不是容器(元组)对象
 tuple00 = (1)  # 普通容器对象
 tuple00 = (1,)  # 元组对象
+
+# 练习:
+# 根据月份计算天数
+mounths = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+mounth30 = (4, 6, 9, 11)
+mounth31 = (1, 3, 5, 7, 8, 10, 12)
+mounth28 = (2,)
+mounth = int(input("请输入月份>>>"))
+if mounth in mounth30:
+    print("30天")
+elif mounth in mounth31:
+    print("31天")
+elif mounth in mounth28:
+    print("28天")
+else:
+    print("输入月份有误")
+
+# 脑洞大开
+day_of_mouth = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+if mounth not in mounths:
+    print("输入有误")
+else:
+    print(day_of_mouth[mounth - 1])
+
+# 练习2:在控制台中输入月，日
+# 计算这是一年的第几天
+
+mounth = int(input("请输入月份>>>"))
+date = int(input("请输入日期>>>"))
+if mounth not in mounths:
+    print("输入月份有误")
+else:
+    if date < 0 or day_of_mouth[mounth - 1] < date:
+        print("输入日期有误")
+    else:
+        day = 0
+        # for item in day_of_mouth[0:mounth - 1]:
+        #     day += item
+
+        # 更优方法
+        day = sum(day_of_mouth[:mounth - 1])
+        day += date
+        print(day)

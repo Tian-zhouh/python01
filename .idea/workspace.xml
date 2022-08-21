@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd85f163-6dea-4fc1-acdc-aa32e8d2d2fe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python001/day05/元组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python001/day05/元组.py" beforeDir="false" afterPath="$PROJECT_DIR$/python001/day05/元组.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +23,7 @@
     <SUITE FILE_PATH="coverage/python01$del.coverage" NAME="del Coverage Results" MODIFIED="1660370198745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day02" />
     <SUITE FILE_PATH="coverage/python01$01.coverage" NAME="练习01 Coverage Results" MODIFIED="1660571127703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day03/循环语句" />
     <SUITE FILE_PATH="coverage/python01$hello.coverage" NAME="hello Coverage Results" MODIFIED="1659623207999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day01" />
-    <SUITE FILE_PATH="coverage/python01$.coverage" NAME="元组 Coverage Results" MODIFIED="1661051926086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day05" />
+    <SUITE FILE_PATH="coverage/python01$.coverage" NAME="元组 Coverage Results" MODIFIED="1661054429206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day05" />
     <SUITE FILE_PATH="coverage/python01$04.coverage" NAME="04作业 Coverage Results" MODIFIED="1660980123698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day05" />
   </component>
   <component name="DatabaseView">
@@ -111,8 +108,8 @@
       <file leaf-file-name="元组.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python001/day05/元组.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+            <state relative-caret-position="940">
+              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
             </state>
           </provider>
         </entry>
@@ -1167,8 +1164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python001/day05/元组.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        <state relative-caret-position="940">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
         </state>
       </provider>
     </entry>
