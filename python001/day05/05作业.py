@@ -32,17 +32,20 @@ print("list01[0]")
     要求删除大于3的数字
 """
 # 04
-# student_list = []
-# for i in range(5):
-#     inp_name = input("请输入学生姓名>>>")
-#     inp_age = input("请输入学生年龄>>>")
-#     inp_sex = input("请输入学生性别>>>")
-#     student_list.append({
-#         "name": inp_name,
-#         "age": inp_age,
-#         "sex": inp_sex
-#     })
-# print(student_list)
+student_list = []
+for i in range(5):
+    inp_name = input("请输入学生姓名>>>")
+    inp_age = input("请输入学生年龄>>>")
+    inp_sex = input("请输入学生性别>>>")
+    student_list.append({
+        "name": inp_name,
+        "age": inp_age,
+        "sex": inp_sex
+    })
+print(student_list)
+for stu in student_list:
+    for key, value in stu.items():
+        print("%s--%s" % (key, value))
 
 # 05
 win_stage = (
@@ -53,24 +56,33 @@ win_stage = (
 stage = ("剪刀", "石头", "布")
 import random
 
-tupe_compute = stage[random.randint(0, 2)]
-while True:
-    tuple_user = input("请输入'剪刀','石头','布'>>>")
-    if tuple_user not in stage:
-        print("请重输")
-        continue
+count = 0
+for item in range(3):
+    tupe_compute = stage[random.randint(0, 2)]
+    while True:
+        tuple_user = input("请输入'剪刀','石头','布'>>>")
+        if tuple_user not in stage:
+            print("请重输")
+            continue
+        else:
+            break
+    tuple_result = (tuple_user, tupe_compute)
+    if tuple_user == tupe_compute:
+        print("平局")
+    elif tuple_result in win_stage:
+        print("赢了")
+        count += 1
     else:
+        print("输了")
+    if count >= 2:
+        print("胜利两局")
         break
-tuple_result = (tuple_user, tupe_compute)
-if tuple_user == tupe_compute:
-    print("平局")
-elif tuple_result in win_stage:
-    print("赢了")
 else:
-    print("输了")
+    print("你输了")
 
 # 6.2
 list01 = [1, 2, 34, 5, 5, 6, 79, 0, 8]
 list02 = [item for item in list01 if item > 3]
 [list01.remove(item) for item in list02]
 print(list01)
+2：07

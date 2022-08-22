@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd85f163-6dea-4fc1-acdc-aa32e8d2d2fe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python001/day06/day05 复习.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python001/day06/练习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python001/day05/05作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/python001/day05/05作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python001/day06/day05 复习.py" beforeDir="false" afterPath="$PROJECT_DIR$/python001/day06/day05 复习.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python01$for.coverage" NAME="for语句 Coverage Results" MODIFIED="1660742904742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day03/循环语句" />
-    <SUITE FILE_PATH="coverage/python01$05.coverage" NAME="05作业 Coverage Results" MODIFIED="1661069270423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day05" />
+    <SUITE FILE_PATH="coverage/python01$05.coverage" NAME="05作业 Coverage Results" MODIFIED="1661174426130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day05" />
     <SUITE FILE_PATH="coverage/python01$review.coverage" NAME="review Coverage Results" MODIFIED="1660226689199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day02" />
     <SUITE FILE_PATH="coverage/python01$__2_.coverage" NAME="练习 (2) Coverage Results" MODIFIED="1660742769647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day03/循环语句" />
     <SUITE FILE_PATH="coverage/python01$hello__1_.coverage" NAME="hello (1) Coverage Results" MODIFIED="1659621508982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python001/day01" />
@@ -63,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05作业.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="05作业.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python001/day05/05作业.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1179">
-              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+            <state relative-caret-position="716">
+              <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -75,15 +74,19 @@
       <file leaf-file-name="练习.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python001/day06/练习.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="924">
               <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day05 复习.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day05 复习.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python001/day06/day05 复习.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -155,9 +158,9 @@
         <option value="$PROJECT_DIR$/python001/day05/元组.py" />
         <option value="$PROJECT_DIR$/python001/day05/字典.py" />
         <option value="$PROJECT_DIR$/python001/day05/字典推导式.py" />
-        <option value="$PROJECT_DIR$/python001/day05/05作业.py" />
         <option value="$PROJECT_DIR$/python001/day06/练习.py" />
         <option value="$PROJECT_DIR$/python001/day06/day05 复习.py" />
+        <option value="$PROJECT_DIR$/python001/day05/05作业.py" />
       </list>
     </option>
   </component>
@@ -193,6 +196,12 @@
               <item name="python01" type="b2602c69:ProjectViewProjectNode" />
               <item name="python01" type="462c0819:PsiDirectoryNode" />
               <item name="python001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python01" type="462c0819:PsiDirectoryNode" />
+              <item name="python001" type="462c0819:PsiDirectoryNode" />
+              <item name="day05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python01" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.练习">
+  <component name="RunManager" selected="Python.05作业">
     <configuration name="字典推导式" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -660,8 +669,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.练习" />
         <item itemvalue="Python.05作业" />
+        <item itemvalue="Python.练习" />
         <item itemvalue="Python.字典推导式" />
       </list>
     </recent_temporary>
@@ -719,9 +728,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.14069264" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24454148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24454148" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32969433" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -1116,22 +1125,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python001/day05/05作业.py">
+    <entry file="file://$PROJECT_DIR$/python001/day06/day05 复习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1179">
-          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python001/day06/练习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="924">
           <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python001/day06/day05 复习.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/python001/day05/05作业.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
