@@ -85,4 +85,3 @@ list01 = [1, 2, 34, 5, 5, 6, 79, 0, 8]
 list02 = [item for item in list01 if item > 3]
 [list01.remove(item) for item in list02]
 print(list01)
-2：07
