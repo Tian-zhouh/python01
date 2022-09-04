@@ -18,6 +18,7 @@ for i in range(3):
 ######
 ******
 ######
+结论:外层循环控制行     内层循环控制列
 """
 for i in range(2):
     for j in range(6):
@@ -35,4 +36,44 @@ for i in range(4):
         else:
             print("#", end="")
     print()
-34: 34
+"""
+画出
+#
+##
+###
+####
+"""
+for i in range(5):
+    for j in range(i):
+        print("#", end="")
+    print()
+
+"""
+画出
+####
+ ###
+  ##
+   #
+"""
+for i in range(5):
+    for j in range(i):
+        print(" ", end="")
+    for j in range(4 - i):
+        print("#", end="")
+    print()
+
+"""
+列表中是否具有相同元素
+[1,4,7,4,8,0,6]
+"""
+list1 = [1, 4, 7, 4, 8, 0, 6]
+list2 = list(set(list1))
+if list1 == list2:
+    print(False)
+else:
+    print(True)
+
+for i in range(len(list1)):
+    for j in range(i + 1, len(list1)):
+        if list1[i] == list1[j]:
+            print(list1[i])
